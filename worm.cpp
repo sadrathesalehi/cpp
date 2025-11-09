@@ -2,8 +2,7 @@
 #include <windows.h>
 #include <vector>
 #include <ctime>
-using namespace std;
-
+using namespace std;//meow
 const int WIDTH = 30;
 const int HEIGHT = 20;
 bool gameOver;
@@ -106,4 +105,5 @@ int main() {
 
     cout << "\nGame Over!\nFinal Score: " << score << endl;
     return 0; }
+
   
